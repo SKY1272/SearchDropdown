@@ -1,0 +1,30 @@
+.searchable-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.searchable-dropdown input {
+  padding: 5px 10px;
+  width: 200px;
+}
+
+.searchable-dropdown ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 0;
+  list-style: none;
+  z-index: 1;
+}
+
+.searchable-dropdown ul li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.searchable-dropdown ul li:hover {
+  background-color: #f5f5f5;
+}
